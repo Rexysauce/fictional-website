@@ -1,0 +1,1011 @@
+
+/*You should already have these called in your CSS, but double check that you have 
+the same properties as those listed below. Otherwise I can't guarantee that
+it will all work.*/
+		
+#wrapper {
+	width: 960px; /*set the width of the wrapper*/
+	margin: 0 auto; /*center the wrapper*/
+	background-color: #684441; /*set the background color for the wrapper portion*/
+}
+		
+#wrapper body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}		
+		
+#wrapper header {
+	width: 960px;
+	background-color: #684441;
+    border-bottom: 5px black;
+}
+		
+		/*From here down is all of the new information that you likely don't have*/
+#wrapper nav {
+	width: 516px; /*128px per box times 4 boxes with the current nav bar. This will change with each box added to the list*/
+	margin: 0 auto; /*center the navigation buttons*/
+    border-bottom: 5px black;
+			
+}
+		
+#wrapper nav ul {
+    list-style-type: none; /*Take away the bullet points*/
+    margin: 0 auto;
+    padding: 0;
+  	margin: 0;
+    overflow: hidden; /*specifies that if your content is too big for the box it will just be hidden instead of scrolling or overlapping */
+}
+
+#wrapper nav li {
+    float: left; /*force the list items to float beside one another rather than be a vertical list*/
+    font-family: "Garamond", serif; /*you can declare any set of fonts here*/
+  	font-size: 1.4em; /*makes the font bigger than the rest of the normal links*/
+  	line-height: 50px;
+  	height: 50px; /*specifies how tall your navigation buttons are going to be*/
+}
+
+#wrapper nav a:link, nav a:visited {
+    display: block; /*display a block around each <a> tag*/
+    width: 120px; /*the block will be however wide you specify here*/
+    color: white; /*make the text in the <a> tags whatever color you specify here*/
+    background-color: #684441; /*make the box whatever color you specify here*/
+    text-align: center; /*align the <a> tags to the center of the box*/
+    text-decoration: none; /*this takes away the underline of the <a> tag*/
+    transition: .2s background-color; /*this animates the color for when you scroll over the box*/
+}
+
+#wrapper nav a:hover, nav a:active {
+    background-color: #999777; /*when you scroll over or click on the <a> tag, the box will turn this color*/
+}
+
+/*End of the new CSS content that is related to the nav bar*/
+/* HOME PAGE CSS ----------------------------------- */
+#mainbody {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Garamond", serif;
+    color: white;
+    background-color: #757575;
+    text-align: center;
+}
+
+#mainbody h1  {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#mainbody h2 {
+    padding: 0;
+    margin: 0;
+    width: 960px;
+}
+#logo {
+    margin: 0 auto;
+    width: 960px;
+}
+#logo img {
+    /* this is to center the logo on the top page */
+    float: bottom;
+    width: 70%;
+    height: 280px;
+    margin-bottom: 1px;
+
+
+}
+
+#index-body {
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-image: url(images/911-nur.jpg); /* 911 porsche */
+}
+ #index-text {
+    width: 940px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+
+    box-shadow: 0px 30px 50px black, 0px -30px 50px black;
+
+ }
+#index-footer {
+    clear: both;
+    position: absolute;
+    top: 940px;
+    background-color: black;
+    width: 960px;
+    text-align: left;
+    text-indent: 5%;
+    box-shadow: 0px 10px 10px black;
+}
+#apply-footer p{
+    clear: both;
+    color: white;
+    position: absolute;
+    top: 860px;
+    background-color: black;
+    width: 960px;
+    text-align: left;
+    text-indent: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+#customer-footer p {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 700px;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    text-indent: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+#ourbuilds-footer p {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 1280px;
+    background-color: black;
+    width: 960px;
+    text-align: left;
+    text-indent: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+#about-footer p { 
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 1140px;
+    background-color: black;
+    width: 960px;
+    text-align: left;
+    text-indent: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+
+#race-footer {
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+#race-footer p { 
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 960px;
+    background-color: black;
+    width: 960px;
+    text-align: left;
+    text-indent: 5%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+
+ /* ------------------------------------------------- */
+
+ /* OUR BUILDS CSS ---------------------------------- */
+#build-main {
+    margin: 0 auto;
+    width: 960px;
+    font-family: "Garamond", serif;
+    color: white;
+    background-color: #757575;
+}
+
+#build-head {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Garamond", serif;
+    color: white;
+    background-color: #b9b9b9;
+}
+
+#build-head h1{
+    text-align: center;
+    color:#1f1e1e;
+    font-size: 75px;
+    text-shadow: 2px 2px 1px #757575;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#build-row aside {
+    margin-bottom: 30px;
+}
+
+#build-row h2 {
+    color: white;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-shadow: 2px 2px #1f1e1e;
+}
+
+#build-row p {
+    color:white;
+    padding-left: 15px;
+    padding-right: 6px;
+    font-size: 18px;
+    text-shadow: 2px 2px #1f1e1e;
+}
+
+#matt-rx7 {
+    float: left;
+    margin-bottom:40px;
+    margin-top:10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 27.083%; /*260px*/
+    height: 360px;
+    background-color: #999777;
+    box-shadow: 8px 8px 4px #684441, 8px 8px 4px #684441;
+}
+
+/* all the other CSS for the card */
+
+#trent-maxima {
+    float:right;
+    position:relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top:10px;
+    width: 27.083%; /*260px*/
+    height: 360px;
+    background-color: #999777;
+    box-shadow: 8px 8px 4px #684441, 8px 8px 4px #684441;
+}
+
+#nick-wrx {
+    float:right;
+    position:relative;
+    margin-right: 80px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top:10px;
+    width: 27.083%; /*260px*/
+    height: 360px;
+    background-color: #999777;
+    box-shadow: 8px 8px 4px #684441, 8px 8px 4px #684441;
+}
+
+
+#ft-part #turbo {
+    float:right;
+    position:relative;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px; 
+    height: 500px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#ft-part #camshaft {
+    float:right;
+    position:relative;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px; 
+    height: 500px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#ft-part #coilovers {
+    float:right;
+    position:relative;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px; 
+    height: 500px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+
+}
+
+#ft-part #tires {
+        float:right;
+        position:relative;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 200px; 
+        height: 500px;
+        background-color: #999777;
+        box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#ft-part h2 {
+    color: white;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-shadow: 2px 2px #1f1e1e;
+}
+
+#ft-part p {
+    color: white;
+    padding-left: 8px;
+    padding-right: 2px;
+    text-shadow: 2px 2px #1f1e1e;
+
+}
+
+
+
+ /* ABOUT US CSS ------------------------------------ */
+#about-main {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Garamond", serif;
+    color: white;
+    background-color: #bebebe;
+}
+
+/*About us head */
+#banner {
+    margin: 0 auto;
+    background-color: #bebebe;
+}
+#banner header {
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: black;
+    font-size: 34px;
+}
+
+#banner section {
+    width: 40%;
+    height: 120px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #999777;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#banner h1 {
+    text-shadow: 2px 2px 1px #757575;
+}
+
+
+
+ /*Staff Cards */
+#matt-card {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 20.833%; /*this is 200 pixels (to the thousandth) */
+    height: 400px;
+
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#matt-card img {
+    width: 100%;
+    height: 200px;
+}
+
+#matt-card h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#matt-card h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#matt-card #desc {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+#matt-card #email {
+    font-size: 15px;
+    text-align: center;
+}
+
+#matt-card #email a {
+    text-decoration: none;
+    color: #684441;
+}
+#trent-card {
+    float:right;
+    position:relative;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    width: 20.833%; /*this is 200 pixels (to the thousandth) */
+    height: 400px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#trent-card h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#trent-card h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#trent-card #desc {
+    font-size: 14px;
+    padding-left: 5px;
+    
+}
+
+#trent-card #email {
+    font-size: 15px;
+    text-align: center;
+}
+
+#trent-card #email a {
+    text-decoration: none;
+    color: #684441;
+}
+
+#nick-card {
+    float:right;
+    position:relative;
+
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 20.833%; /*this is 200 pixels (to the thousandth) */
+    height: 400px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#nick-card h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#nick-card h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#nick-card #desc {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+#nick-card #email {
+    font-size: 15px;
+    text-align: center;
+}
+
+#nick-card #email a {
+    text-decoration: none;
+    color: #684441;
+}
+
+#chase-card {
+    float:right;
+    position:relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    width: 20.833%; /*this is 200 pixels (to the thousandth) */
+    height: 400px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#chase-card img {
+    width: 100%;
+    height: 200px;
+}
+
+
+#chase-card h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#chase-card h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#chase-card #desc {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+#chase-card #email {
+    font-size: 15px;
+    text-align: center;
+}
+
+#chase-card #email a {
+    text-decoration: none;
+    color: #684441;
+}
+
+/*apply box */
+#apply {
+    position: relative;
+    clear:both;
+    float:left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-color: white;
+}
+
+#apply footer {
+    width: 60%; /*this is really 40%, but its only measuring half of the screen*/
+    height: 267px;
+    padding-left: 20px;
+    background-color: #999777;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#apply h1{
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 21px;
+}
+
+#apply p {
+    float: left;
+    width: 60%;
+}
+
+#apply h2 {
+    clear: both;
+    float: left;
+    padding-top: 50px;
+    width: 50%
+}
+#apply a {
+    width: 100px;
+    height: 30px;
+    padding-top: 2px;
+}
+#apply a:link, #apply a:visited {
+    display:block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #1f1e1e;
+    font-size: 18px;
+    transition: .2s;
+}
+
+#apply a:hover, #apply a:active {
+    background-color: #984441;
+    box-shadow: 6px 6px 3px #1f1e1e, 6px 6px 3px #1f1e1e;
+}
+
+/*mechanic image*/
+#emp-img {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding-top: 20px;
+    float: right;
+    clear: left;
+    width: 42%;
+    height: 267px;
+
+}
+
+#emp-img img {
+    position: relative;
+    bottom:317px;
+    right: 161px;
+    width: 100%; /*400px*/
+    height: 267px;
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+/* Apply form CSS ---------------------------------------- */
+#form-header header {
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    box-shadow: 0px 15px 10px black;
+}
+#form-main {
+    background-image: url(images/maxima-2jz.jpg);
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top:100px;
+}
+
+
+#form {
+    width: 50%; 
+    height: 400px;
+    font-family: "Garamond", serif;
+    color: white;
+    margin: 0 auto;
+    
+}
+#form section {
+    top: 50px;
+    padding-top:30px;
+    padding-bottom: 50px;
+    border-radius: 7%;
+    background-color: #999777;
+    /*cheesy work around I found fo a full cast shadow*/
+    box-shadow: 10px 10px 20px #684441, 10px 10px 20px #684441, -10px 10px 20px #684441, 10px -10px 20px #684441, -10px -10px 20px #684441;
+}
+#employ-form {
+    margin: 0 auto;
+    width: 320px;
+    
+    
+}
+#employ-form form {
+    position: relative;
+    padding-top:50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#employ-form label
+{
+    top:40px;
+    color: white;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 20px;
+}
+#employ-form input {
+    width: 90%;
+    top:10px;
+    border-radius:2%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+#employ-form input[type=text]:focus {
+    border: 3px solid black;
+}
+
+#employ-form a:link, #employ-form a:visited {
+    display:block;
+    width:100px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #1f1e1e;
+    font-size: 18px;
+    transition: .2s;
+}
+
+#employ-form a:hover, #employ-form a:active {
+        background-color: #684441; /*when you scroll over or click on the <a> tag, the box will turn this color*/
+        box-shadow: 6px 6px 3px #1f1e1e, 6px 6px 3px #1f1e1e;
+}
+
+/* Apply form CSS ------------------------------------- */
+
+/* Apply Conf Page ------------------------------------ */
+#apply-conf-main head {
+    margin: 0 auto;
+    width: 960px;
+    font-family: "Garamond", serif;
+    
+    
+}
+
+#apply-conf body {
+    background-color: black;
+}
+#apply-conf section {
+    width: 20%;
+    height: 300px;
+    background-color: rgb(233, 233, 233);
+    border-style:solid;
+    border-radius: 10px;
+    border-color: rgb(126, 126, 126);
+    position:absolute;
+    top:200px;
+    right:850px;
+}
+
+#conf-text {
+    position:absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#conf-text h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 19px;
+    text-indent: 2px;
+    color: rgb(126,126,126);
+    display:block;
+}
+
+#conf-text p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#585858;
+}
+
+#apply-conf a {
+    text-align:center;
+    width:40%;
+    display:block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 240px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-right: 60px;
+    margin-left: 20px;
+    float:left;
+}
+
+#apply-conf a:link, #apply-conf a:visited {
+    display:block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #1f1e1e;
+    font-size: 12px;
+    transition: .2s;
+}
+
+#apply-conf a:hover, #employ-form a:active {
+    background-color: #684441; /*when you scroll over or click on the <a> tag, the box will turn this color*/
+    box-shadow: 6px 6px 3px #1f1e1e, 6px 6px 3px #1f1e1e;
+}
+
+/* RACE TEAM CSS ------------------------------------- */
+
+#race-header {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Garamond", serif;
+    background-color: #bebebe;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#race-header  h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 1px #757575;
+}
+
+#race-header h2 {
+    font-size: 24px;
+    text-shadow: 2px 2px 1px #757575;
+}
+
+
+#race-body {
+    width: 960px;
+    height: 686px;
+    margin: 0 auto;
+    background-image: url(images/pit.jpg);
+    font-family: "Garamond", serif;
+}
+
+#race-body h1 {
+    width: 40%;
+    height: 50px;
+    background-color: #1f1e1e;
+    color:white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 12%;
+}
+
+#race-body p{
+    background-color: #1f1e1e;
+    color:white;
+    font-size: 22px;
+    margin-top: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+/* CUSTOMER INFO CSS ---------------------------------- */
+#customer-main {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Garamond", serif;
+    color: white;
+    background-color: #585858;
+}
+
+#customer-main h1 {
+
+    text-align:center;
+    margin-top:10px;
+    background-color: #b9b9b9;
+    color:black;
+    font-size:56px;
+    text-shadow: 2px 2px 1px #757575;
+}
+
+#services {
+    font-family: "Garamond", serif;
+    color: white;
+
+    margin-top:20px;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-left:6%;
+    background-color: #999777; 
+
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+#serv-list h2 {
+    color: black;
+    margin-top: 10px;
+    text-indent: 15px;
+}
+#serv-list ul {
+    font-size: 16px;
+}
+
+#serv-list p {
+    margin-top: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+#info {
+    font-family: "Garamond", serif;
+    color: white;
+
+    margin-top:20px;
+    width:40%;
+    height:300px;
+    float: right;
+    margin-right:6%;
+    background-color: #999777;
+    text-align: center;
+
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+    
+}
+
+#info h3 {
+    font-size: 24px;
+    color: #1f1e1e;
+}
+
+#info h4{  
+    font-size: 20px;
+    color: #1f1e1e;
+}
+
+#info a:link, a:active {
+    text-decoration: none;
+    color: rgb(53, 0, 243);
+    font-size: 16px;
+}
+#rx7 {
+    font-family: "Garamond", serif;
+    color: white;
+
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#rx7 img {
+    clear: both;
+    width: 100%;
+    
+    margin-top: 20px;
+    border-radius: 2%;
+
+    box-shadow: 6px 6px 3px #684441, 6px 6px 3px #684441;
+}
+
+#rx7 #rx7-text {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+    bottom: 10px;
+    right: 2%;
+}
+
+#rx7-text h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#rx7-text ul {
+    list-style-type: none;
+}
+
+#rx7-text li {
+    margin-bottom: 12px;
+}
+
+/* --------------------------------------------------- */
